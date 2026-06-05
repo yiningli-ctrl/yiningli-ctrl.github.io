@@ -3,19 +3,19 @@ body {
     margin: 0; 
     background: #af7ef4; 
     color: #57dcf6; 
-    font-family; "Helvetica Neue",Arial,sana-serif; }
+    font-family: "Helvetica Neue",Arial,sana-serif; }
 #all-content{
     max-width:1500px;  
     min-height:100vh;  
     margin:0auto; 
     padding:32px 40px;  
 }
-main{
-    display:grid;  
-    grid-template-columns:minmax(220px, 1fr)  minmax(420px, 1.6fr) 
-    align-items:center;  
-    min-height:calc(100vh - 160px);  
-    gap:clamp(32px, 5vw, 80px)
+main {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+    align-items: center;
+    min-height: calc(100vh - 160px);
+    gap: clamp(32px, 5vw, 80px);
 }
 .sidebar{
     width:100%;
